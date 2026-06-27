@@ -21,9 +21,6 @@ This indicates a potential security threat and must be stopped.
 
 # ✅ Solution
 
-
-<summary>Click to expand the solution</summary>
-
 ### Step 1: Check Pods in the `neuron` namespace
 
 ```

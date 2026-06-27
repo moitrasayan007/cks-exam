@@ -1,8 +1,5 @@
 # 🧩 Problem Statement(Istio mTLS Enforcement- Layer 4 Security)
 
-<details>
-<summary>Click to expand the problem statement</summary>
-
 
 A microservices application is running in the Kubernetes cluster.
 Currently, service-to-service communication within the application uses unencrypted **Layer 4 (TCP)** traffic.
@@ -28,12 +25,7 @@ To secure all Layer 4 traffic, complete the following:
 * You are allowed to refer to the official Istio documentation during the exam.
 * After configuration, all internal service communication must use encrypted mTLS only.
 
-</details>
-
 # ✅ Solution
-
-<details>
-<summary>Click to expand the solution</summary>
 
 
 In the CKS exam, you are allowed to access the official Istio documentation.

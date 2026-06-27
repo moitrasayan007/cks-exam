@@ -1,8 +1,5 @@
 # 🧩 Problem Statement(BOM Tool)
 
-<details>
-<summary>Click to expand the problem statement</summary>
-
 There is a Deployment named **`sbom`** running in the **`sbom`** namespace.
 
 This Deployment contains **three containers**, and each container uses a **different image version**.
@@ -35,9 +32,6 @@ The Deployment manifest file is located at:
 
 
 # ✅ Solution
-
-<details>
-<summary>Click to expand the solution</summary>
 
 ### Step 1: Identify the Pod name
 
@@ -141,5 +135,3 @@ You should now see only:
 ```
 container-1 container-3
 ```
-
-</details>

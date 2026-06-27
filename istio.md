@@ -111,5 +111,3 @@ kubectl apply -f peerauth.yaml
 ```
 
 Now all workloads in the namespace will only accept encrypted mTLS traffic.
-
-</details>

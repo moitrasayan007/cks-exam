@@ -1,8 +1,5 @@
 # 🧩 Problem Statement(Hardening Kubelet and ETCD Configuration)
 
-<details>
-<summary>Click to expand the problem statement</summary>
-
 A Kubernetes cluster created using **kubeadm** was scanned using a **CIS Benchmark tool**, and multiple critical security violations were reported.
 
 Your task is to:
@@ -22,12 +19,7 @@ Your task is to:
 
 * Ensure the `--client-cert-auth` parameter is set to `true`
 
-</details>
-
 # ✅ Solution
-
-<details>
-<summary>Click to expand the solution</summary>
 
 
 ### Step 1: Locate the kubelet configuration file
@@ -113,5 +105,3 @@ kubectl get nodes
 ```
 
 If the node shows `Ready` status and the API server is reachable, the configuration has been applied successfully.
-
-</details>

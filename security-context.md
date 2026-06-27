@@ -1,8 +1,5 @@
 # 🧩 Problem Statement(Container Security Context Hardening)
 
-<details>
-<summary>Click to expand the problem statement</summary>
-
 A Kubernetes Deployment is running with insecure container settings.
 
 Your objective is to harden the containers by enforcing immutability and reducing privilege-related risks.
@@ -33,12 +30,8 @@ Update the Deployment so that all containers:
 * Re-apply the updated manifest.
 * Focus only on container-level security context settings required by the task.
 
-</details>
-
 # ✅ Solution
 
-<details>
-<summary>Click to expand the solution</summary>
 
 ### Step 1: Open the Deployment manifest
 
@@ -96,5 +89,3 @@ kubectl get pods -n sec-ns
 ```
 
 Ensure the Pod restarts successfully with the updated configuration.
-
-</details>

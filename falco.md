@@ -1,7 +1,5 @@
 # 🧩 Problem Statement(Detecting a Pod Accessing `/dev/mem`)
 
-<details>
-<summary>Click to expand the problem statement</summary>
 
 A suspicious Pod in the cluster has been flagged for abnormal behavior.
 
@@ -23,7 +21,7 @@ This indicates a potential security threat and must be stopped.
 
 # ✅ Solution
 
-<details>
+
 <summary>Click to expand the solution</summary>
 
 ### Step 1: Check Pods in the `neuron` namespace
@@ -118,5 +116,3 @@ kubectl get deploy,pods -n neuron
 ```
 
 Pods for that Deployment should terminate.
-
----
